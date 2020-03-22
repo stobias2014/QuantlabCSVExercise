@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A85B244C2425A0180042C309 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A85B244B2425A0180042C309 /* main.cpp */; };
+		A8D47CC5242689B600E38D97 /* InputShare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D47CC3242689B600E38D97 /* InputShare.cpp */; };
+		A8D47CC82426A5B900E38D97 /* CSVReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D47CC62426A5B900E38D97 /* CSVReader.cpp */; };
+		A8D47CCC2426C75500E38D97 /* ShareCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D47CCA2426C75500E38D97 /* ShareCalculator.cpp */; };
+		A8D47CD22426CAA700E38D97 /* CalculatedShare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D47CD02426CAA700E38D97 /* CalculatedShare.cpp */; };
+		A8D47CD52426EEBF00E38D97 /* StockSymbolDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D47CD32426EEBF00E38D97 /* StockSymbolDB.cpp */; };
+		A8D47CDB242719A500E38D97 /* CSVWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D47CD9242719A500E38D97 /* CSVWriter.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A85B24462425A0180042C309 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A85B24482425A0180042C309 /* QuantlabCSVExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QuantlabCSVExercise; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85B244B2425A0180042C309 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A8D47CC3242689B600E38D97 /* InputShare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputShare.cpp; sourceTree = "<group>"; };
+		A8D47CC4242689B600E38D97 /* InputShare.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InputShare.hpp; sourceTree = "<group>"; };
+		A8D47CC62426A5B900E38D97 /* CSVReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CSVReader.cpp; sourceTree = "<group>"; };
+		A8D47CC72426A5B900E38D97 /* CSVReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CSVReader.hpp; sourceTree = "<group>"; };
+		A8D47CC92426AB4800E38D97 /* input.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = input.csv; path = ../../../../input.csv; sourceTree = "<group>"; };
+		A8D47CCA2426C75500E38D97 /* ShareCalculator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShareCalculator.cpp; sourceTree = "<group>"; };
+		A8D47CCB2426C75500E38D97 /* ShareCalculator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ShareCalculator.hpp; sourceTree = "<group>"; };
+		A8D47CD02426CAA700E38D97 /* CalculatedShare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CalculatedShare.cpp; sourceTree = "<group>"; };
+		A8D47CD12426CAA700E38D97 /* CalculatedShare.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CalculatedShare.hpp; sourceTree = "<group>"; };
+		A8D47CD32426EEBF00E38D97 /* StockSymbolDB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StockSymbolDB.cpp; sourceTree = "<group>"; };
+		A8D47CD42426EEBF00E38D97 /* StockSymbolDB.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StockSymbolDB.hpp; sourceTree = "<group>"; };
+		A8D47CD9242719A500E38D97 /* CSVWriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CSVWriter.cpp; sourceTree = "<group>"; };
+		A8D47CDA242719A500E38D97 /* CSVWriter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CSVWriter.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85B24452425A0180042C309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A85B243F2425A0170042C309 = {
+			isa = PBXGroup;
+			children = (
+				A85B244A2425A0180042C309 /* QuantlabCSVExercise */,
+				A85B24492425A0180042C309 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A85B24492425A0180042C309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85B24482425A0180042C309 /* QuantlabCSVExercise */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85B244A2425A0180042C309 /* QuantlabCSVExercise */ = {
+			isa = PBXGroup;
+			children = (
+				A8D47CC92426AB4800E38D97 /* input.csv */,
+				A85B244B2425A0180042C309 /* main.cpp */,
+				A8D47CD32426EEBF00E38D97 /* StockSymbolDB.cpp */,
+				A8D47CD42426EEBF00E38D97 /* StockSymbolDB.hpp */,
+				A8D47CCA2426C75500E38D97 /* ShareCalculator.cpp */,
+				A8D47CCB2426C75500E38D97 /* ShareCalculator.hpp */,
+				A8D47CC3242689B600E38D97 /* InputShare.cpp */,
+				A8D47CC4242689B600E38D97 /* InputShare.hpp */,
+				A8D47CC62426A5B900E38D97 /* CSVReader.cpp */,
+				A8D47CC72426A5B900E38D97 /* CSVReader.hpp */,
+				A8D47CD02426CAA700E38D97 /* CalculatedShare.cpp */,
+				A8D47CD12426CAA700E38D97 /* CalculatedShare.hpp */,
+				A8D47CD9242719A500E38D97 /* CSVWriter.cpp */,
+				A8D47CDA242719A500E38D97 /* CSVWriter.hpp */,
+			);
+			path = QuantlabCSVExercise;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A85B24472425A0180042C309 /* QuantlabCSVExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85B244F2425A0180042C309 /* Build configuration list for PBXNativeTarget "QuantlabCSVExercise" */;
+			buildPhases = (
+				A85B24442425A0180042C309 /* Sources */,
+				A85B24452425A0180042C309 /* Frameworks */,
+				A85B24462425A0180042C309 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuantlabCSVExercise;
+			productName = QuantlabCSVExercise;
+			productReference = A85B24482425A0180042C309 /* QuantlabCSVExercise */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85B24402425A0170042C309 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Saul Tobias";
+				TargetAttributes = {
+					A85B24472425A0180042C309 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = A85B24432425A0170042C309 /* Build configuration list for PBXProject "QuantlabCSVExercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A85B243F2425A0170042C309;
+			productRefGroup = A85B24492425A0180042C309 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A85B24472425A0180042C309 /* QuantlabCSVExercise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A85B24442425A0180042C309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D47CC82426A5B900E38D97 /* CSVReader.cpp in Sources */,
+				A8D47CCC2426C75500E38D97 /* ShareCalculator.cpp in Sources */,
+				A8D47CD52426EEBF00E38D97 /* StockSymbolDB.cpp in Sources */,
+				A8D47CC5242689B600E38D97 /* InputShare.cpp in Sources */,
+				A8D47CDB242719A500E38D97 /* CSVWriter.cpp in Sources */,
+				A8D47CD22426CAA700E38D97 /* CalculatedShare.cpp in Sources */,
+				A85B244C2425A0180042C309 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A85B244D2425A0180042C309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A85B244E2425A0180042C309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A85B24502425A0180042C309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A85B24512425A0180042C309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A85B24432425A0170042C309 /* Build configuration list for PBXProject "QuantlabCSVExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85B244D2425A0180042C309 /* Debug */,
+				A85B244E2425A0180042C309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85B244F2425A0180042C309 /* Build configuration list for PBXNativeTarget "QuantlabCSVExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85B24502425A0180042C309 /* Debug */,
+				A85B24512425A0180042C309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A85B24402425A0170042C309 /* Project object */;
+}
