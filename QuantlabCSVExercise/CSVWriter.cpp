@@ -37,7 +37,8 @@ int CSVWriter::writeToFile(string fileName, vector<CalculatedShare> calculatedSh
     ofstream outFile;
     string line;
     
-    outFile.open(fileName, ios_base::app);
+    //ios_base::app
+    outFile.open(fileName);
     
     if(outFile.fail()) {
         cerr << "Failed to open file for writing " << endl;
@@ -45,7 +46,7 @@ int CSVWriter::writeToFile(string fileName, vector<CalculatedShare> calculatedSh
     }
     
     for(CalculatedShare share : calculatedShares) {
-        line = share.getSymbol() + "," + to_string(share.getMaxTimeStamp()) + "," + to_string(share.getTotalVolume()) + "," + to_string(share.getMaxTradePrice()) + "," + to_string(share.getWeighedAvgPrice()) + "\n" ;
+        line = share.getSymbol() + "," + to_string(share.getMaxTimeStamp()) + "," + to_string(share.getTotalVolume()) + "," + to_string(share.getWeighedAvgPrice()) + "," + to_string(share.getMaxTradePrice()) + "\n" ;
         
         outFile << line;
     }

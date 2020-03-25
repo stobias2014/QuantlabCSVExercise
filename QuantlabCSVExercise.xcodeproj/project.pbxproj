@@ -29,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A826EC1D242BD72600E1AA05 /* input.csv */ = {isa = PBXFileReference; lastKnownFileType = file; name = input.csv; path = ../../../input.csv; sourceTree = "<group>"; };
 		A85B24482425A0180042C309 /* QuantlabCSVExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QuantlabCSVExercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85B244B2425A0180042C309 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A8D47CC3242689B600E38D97 /* InputShare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputShare.cpp; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 		A85B243F2425A0170042C309 = {
 			isa = PBXGroup;
 			children = (
+				A826EC1D242BD72600E1AA05 /* input.csv */,
 				A85B244A2425A0180042C309 /* QuantlabCSVExercise */,
 				A85B24492425A0180042C309 /* Products */,
 			);

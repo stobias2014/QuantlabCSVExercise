@@ -19,12 +19,15 @@ ShareCalculator::ShareCalculator() {}
 int ShareCalculator::findMaxTradePrice(vector<InputShare> sortedShares) {
     int maxValue = 0;
     
+    
     for(InputShare share : sortedShares) {
-        maxValue = share.getPrice();
+        //maxValue = share.getPrice();
         if(share.getPrice() > maxValue) {
             maxValue = share.getPrice();
         }
     }
+    
+    
     
     return maxValue;
 }

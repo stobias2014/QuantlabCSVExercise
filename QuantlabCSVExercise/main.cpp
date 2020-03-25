@@ -30,15 +30,15 @@ int main() {
     CSVWriter csvWriter;
     
     //consider use of filesystem library to generalize
-    string outFilePath = "/Users/saultobias/Desktop/output.csv";
-    string inFilePath = "/Users/saultobias/Documents/input.csv";
+    //string outFilePath = "/Users/saultobias/Desktop/output.csv";
+    //string inFilePath = "/Users/saultobias/Documents/input.csv";
     
     set<string> shareSymbols;
     vector<InputShare> shares;
     vector<CalculatedShare> calculatedShares;
     
     ifstream inputFile;
-    inputFile.open(inFilePath);
+    inputFile.open("input.csv");
     
     if(!inputFile.is_open()) {
         cerr << "File was not able to be opened " << endl;
@@ -50,6 +50,7 @@ int main() {
     sort(shares.begin(), shares.end(), [](InputShare& lhs, InputShare& rhs) {
         return lhs.getSymbol() < rhs.getSymbol();
     });
+    
     
     //place share symbols in a set
     for(InputShare share : shares) {
@@ -73,6 +74,7 @@ int main() {
         
         //calculate data to be used for calculated share
         maxPrice = shareCalculator.findMaxTradePrice(currentShares);
+        
         totalVolume = shareCalculator.findTotalVolume(currentShares);
         weighedAvgPrice = shareCalculator.findWeighedAveragePrice(currentShares);
         maxTimeStamp = shareCalculator.findMaxTimeStamp(currentShares);
@@ -81,14 +83,15 @@ int main() {
         calculatedShare.setSymbol(shareSymbol);
         calculatedShare.setTotalVolume(totalVolume);
         calculatedShare.setMaxTradePrice(maxPrice);
+        
         calculatedShare.setWeighedAvgPrice(weighedAvgPrice);
         calculatedShare.setMaxTimeStamp(maxTimeStamp);
             
         calculatedShares.push_back(calculatedShare);
     }
     
-    csvWriter.createFile(outFilePath);
-    csvWriter.writeToFile(outFilePath, calculatedShares);
+    csvWriter.createFile("output.csv");
+    csvWriter.writeToFile("output.csv", calculatedShares);
     
     return EXIT_SUCCESS;
 

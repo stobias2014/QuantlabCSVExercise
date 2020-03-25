@@ -38,7 +38,7 @@ void InputShare::setQuantity(int m_quantity) {
 }
 
 int InputShare::getPrice() {
-    return quantity;
+    return price;
 }
 
 void InputShare::setPrice(int m_price) {
